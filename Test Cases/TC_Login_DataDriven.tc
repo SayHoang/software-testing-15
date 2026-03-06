@@ -6,4 +6,52 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>1b9b7724-a254-4518-93f5-d4e1b8566de5</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>0e197a0f-381d-43c0-b322-4cc155ae0dbc</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TD_LoginData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>0e197a0f-381d-43c0-b322-4cc155ae0dbc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>32f8d23e-faaf-4209-b414-a4ef03be05b8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0e197a0f-381d-43c0-b322-4cc155ae0dbc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>932cbbe7-cffe-4d7e-8d7a-c1c18cd20745</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0e197a0f-381d-43c0-b322-4cc155ae0dbc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expectedResult</value>
+      <variableId>02707288-9a07-47ea-8e9d-f5b5f6b47b0e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>32f8d23e-faaf-4209-b414-a4ef03be05b8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>932cbbe7-cffe-4d7e-8d7a-c1c18cd20745</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>02707288-9a07-47ea-8e9d-f5b5f6b47b0e</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
 </TestCaseEntity>

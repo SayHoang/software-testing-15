@@ -17,3 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Open Url
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com')
+WebUI.maximizeWindow()
+
+// Input username and password
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/txt_Username'), "Admin")
+
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/txt_Password'), "admin123")
+
+
+// Click btn_Login
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/btn_Login'))
+
+
+// Click menu PIM
+WebUI.click(findTestObject('Object Repository/Page_PIM/mnu_PIM'))
+
+
+
+
+

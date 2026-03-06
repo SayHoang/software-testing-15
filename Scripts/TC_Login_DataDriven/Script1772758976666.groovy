@@ -50,7 +50,7 @@ if(expectedResult == "Login Success") {
 	WebUI.comment('Login fail like expected result: ' + username)
 } else if(expectedResult == "Username cannot be empty") {
 	WebUI.verifyElementPresent(
-		findTestObject('Object Repository/Page_OrangeHRM/lbl_Error'),
+		findTestObject('Object Repository/Page_OrangeHRM/lbl_ErrorUsername'),
 		10
 	)
 	
@@ -58,7 +58,7 @@ if(expectedResult == "Login Success") {
 	
 } else if(expectedResult == "Password cannot be empty") {
 	WebUI.verifyElementPresent(
-		findTestObject('Object Repository/Page_OrangeHRM/lbl_Error'),
+		findTestObject('Object Repository/Page_OrangeHRM/lbl_ErrorPassword'),
 		10
 	)
 	
