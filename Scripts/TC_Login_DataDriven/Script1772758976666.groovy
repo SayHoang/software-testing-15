@@ -17,3 +17,58 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Open Url
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com')
+WebUI.maximizeWindow()
+
+// Input username and password
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/txt_Username'), username)
+
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/txt_Password'), password)
+
+
+// Click btn_Login
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/btn_Login'))
+
+
+// Check conditions
+if(expectedResult == "Login Success") {
+	WebUI.verifyElementPresent(
+		findTestObject('Object Repository/Page_OrangeHRM/h6_Dashboard'),
+		10
+	)
+	
+	WebUI.comment('Login success with: ' + username)
+	
+} else if(expectedResult == "Invalid credentials") {
+	WebUI.verifyElementPresent(
+		findTestObject('Object Repository/Page_OrangeHRM/lbl_Error'),
+		10
+	)
+	
+	WebUI.comment('Login fail like expected result: ' + username)
+} else if(expectedResult == "Username cannot be empty") {
+	WebUI.verifyElementPresent(
+		findTestObject('Object Repository/Page_OrangeHRM/lbl_Error'),
+		10
+	)
+	
+	WebUI.comment('Login fail like expected result: ' + username)
+	
+} else if(expectedResult == "Password cannot be empty") {
+	WebUI.verifyElementPresent(
+		findTestObject('Object Repository/Page_OrangeHRM/lbl_Error'),
+		10
+	)
+	
+	WebUI.comment('Login fail like expected result: ' + username)
+	
+}
+
+// Close Broswer
+WebUI.closeBrowser()
+
+
+
+
