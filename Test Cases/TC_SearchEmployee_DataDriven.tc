@@ -6,4 +6,52 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>181eb1c1-2a3c-478d-851c-00ec017acdfd</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>1ab9ecfd-1732-4c55-a76e-d58fcf0a6d32</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TD_SearchEmployeeData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>1ab9ecfd-1732-4c55-a76e-d58fcf0a6d32</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>keyword</value>
+      <variableId>8c6293b9-4055-44bf-9ec0-de3bc7958a4b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>1ab9ecfd-1732-4c55-a76e-d58fcf0a6d32</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expectedName</value>
+      <variableId>fb6104f5-25fb-4a8b-b12c-d5544a39fbba</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>1ab9ecfd-1732-4c55-a76e-d58fcf0a6d32</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>shouldFound</value>
+      <variableId>d6a7c554-4486-48a6-9464-d89a635e5128</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Peter'</defaultValue>
+      <description></description>
+      <id>8c6293b9-4055-44bf-9ec0-de3bc7958a4b</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+   <variable>
+      <defaultValue>'Peter Mac'</defaultValue>
+      <description></description>
+      <id>fb6104f5-25fb-4a8b-b12c-d5544a39fbba</id>
+      <masked>false</masked>
+      <name>expectedName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d6a7c554-4486-48a6-9464-d89a635e5128</id>
+      <masked>false</masked>
+      <name>shouldFound</name>
+   </variable>
 </TestCaseEntity>
