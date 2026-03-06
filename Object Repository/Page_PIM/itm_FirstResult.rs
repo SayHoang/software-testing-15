@@ -3,22 +3,22 @@
    <description></description>
    <name>itm_FirstResult</name>
    <tag></tag>
-   <elementGuidId>0310b847-2a8d-4b07-84be-ab7305c05269</elementGuidId>
+   <elementGuidId>f1e9bb0c-1e57-4bf1-9432-191c1b83a7a4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.oxd-table-row.oxd-table-row--with-border.oxd-table-row--clickable</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div</value>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=row[name=&quot; 0312 A8DCo 4Ys 010Z  &quot;i]</value>
+         <value>internal:text=&quot;joker john&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,70 +29,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>69e00084-a9da-4608-93db-528fc35efb73</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>oxd-table-row oxd-table-row--with-border oxd-table-row--clickable</value>
-      <webElementGuid>13cccb39-699a-4710-8fb0-b3f79644cc25</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>row</value>
-      <webElementGuid>16131443-d52d-4609-80c4-edc89f0fffb6</webElementGuid>
+      <webElementGuid>82b24fa3-79b5-447f-b96c-ba3dde2e5478</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>0312A8DCo 4Ys010Z</value>
-      <webElementGuid>e5cf2ad3-c832-4427-a99f-fadecd9a9f21</webElementGuid>
+      <value>joker john</value>
+      <webElementGuid>9a020bcd-2a0f-466c-bd4b-b479e2835a8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-container&quot;]/div[@class=&quot;oxd-table orangehrm-employee-list&quot;]/div[@class=&quot;oxd-table-body&quot;]/div[@class=&quot;oxd-table-card&quot;]/div[@class=&quot;oxd-table-row oxd-table-row--with-border oxd-table-row--clickable&quot;]</value>
-      <webElementGuid>3c71e69c-d7ba-4baa-8dac-4c3d19de96b8</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-container&quot;]/div[@class=&quot;oxd-table orangehrm-employee-list&quot;]/div[@class=&quot;oxd-table-body&quot;]/div[@class=&quot;oxd-table-card&quot;]/div[@class=&quot;oxd-table-row oxd-table-row--with-border oxd-table-row--clickable&quot;]/div[@class=&quot;oxd-table-cell oxd-padding-cell&quot;]/div[1]</value>
+      <webElementGuid>5a9d7d9a-01f2-4ede-acf7-f4f7ca05e9cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div</value>
-      <webElementGuid>82e54d19-5efe-471f-909f-eeff322eaa6b</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[3]/div</value>
+      <webElementGuid>aefec492-f3f2-49d0-92ba-bf7f77f32f74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amelia'])[1]/preceding::div[25]</value>
-      <webElementGuid>b50c9dc8-af13-49c7-a108-6639106db5f2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='selvam'])[1]/preceding::div[1]</value>
+      <webElementGuid>a1306d6e-9078-4d61-9e11-37264b4c2e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::div[14]</value>
+      <webElementGuid>f058a89f-a893-4435-bbd7-254295f41b5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='joker john']/parent::*</value>
+      <webElementGuid>15fbb1d9-20b2-41b5-b6ec-53dbe6e5a428</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[3]/div/div[2]/div/div</value>
-      <webElementGuid>b9bb4869-8e20-4247-b27e-e3d41ad8cd59</webElementGuid>
+      <value>//div[3]/div/div[2]/div/div/div[3]/div</value>
+      <webElementGuid>188091ce-2350-47af-b61f-54bf0dc587c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '0312A8DCo 4Ys010Z' or . = '0312A8DCo 4Ys010Z')]</value>
-      <webElementGuid>5108c8b1-9301-45b4-8001-6783d0a3c14f</webElementGuid>
+      <value>//div[(text() = 'joker john' or . = 'joker john')]</value>
+      <webElementGuid>3fce16bd-3e57-4a56-b742-94a9ef4d425e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

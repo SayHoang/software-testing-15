@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TSC_OrangeHRM_AllTests</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>a132932c-02b0-444e-8d80-64cfc84c6fa5</testSuiteGuid>
+   <testCaseLink>
+      <guid>8e4e0412-c39f-471b-b290-68b34984ab02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Login_DataDriven</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>32f8d23e-faaf-4209-b414-a4ef03be05b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>932cbbe7-cffe-4d7e-8d7a-c1c18cd20745</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>02707288-9a07-47ea-8e9d-f5b5f6b47b0e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8d0e9fd7-df7f-4d1a-81b2-03df67067a9c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_SearchEmployee_DataDriven</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8c6293b9-4055-44bf-9ec0-de3bc7958a4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fb6104f5-25fb-4a8b-b12c-d5544a39fbba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d6a7c554-4486-48a6-9464-d89a635e5128</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

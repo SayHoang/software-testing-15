@@ -36,6 +36,33 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/btn_Login'))
 WebUI.click(findTestObject('Object Repository/Page_PIM/mnu_PIM'))
 
 
+// Click menu Employee List
+WebUI.click(findTestObject('Object Repository/Page_PIM/mnu_EmployeeList'))
 
+
+// Import EmployeeName
+WebUI.setText(findTestObject('Object Repository/Page_PIM/txt_SearchName'), keyword)
+
+
+// Click btn_Search
+WebUI.click(findTestObject('Object Repository/Page_PIM/btn_Search'))
+
+
+// Check condition shouldFound
+if(shouldFound == "true") {
+	WebUI.verifyElementPresent(
+		findTestObject('Object Repository/Page_PIM/itm_FirstResult') == expectedName, 
+		5
+	)
+} else {
+	WebUI.verifyElementPresent(
+		findTestObject('Object Repository/Page_PIM/lbl_NoRecord'), 
+		5
+	)
+}
+
+
+// Close browser
+WebUI.closeBrowser()
 
 
